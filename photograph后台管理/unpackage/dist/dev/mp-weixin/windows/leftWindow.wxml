@@ -1,0 +1,1 @@
+<scroll-view class="sidebar" scroll-y="true"><uni-data-menu wx:if="{{c}}" class="r" u-r="menu" bindselect="{{b}}" u-i="20bf001e-0" bind:__l="__l" u-p="{{c}}"></uni-data-menu></scroll-view>

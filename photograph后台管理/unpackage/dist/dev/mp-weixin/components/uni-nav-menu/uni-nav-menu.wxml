@@ -1,0 +1,1 @@
+<view class="uni-nav-menu" style="{{'background-color:' + b}}"><block wx:if="{{$slots.d}}"><slot></slot></block><block wx:else><uni-menu-sidebar wx:if="{{a}}" u-i="7fbc18c4-0" bind:__l="__l" u-p="{{a}}"></uni-menu-sidebar></block></view>

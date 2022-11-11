@@ -1,0 +1,1 @@
+<view class="uni-breadcrumb-x"><uni-breadcrumb wx:if="{{b}}" u-s="{{['d']}}" u-i="7e0d7df8-0" bind:__l="__l" u-p="{{b}}"><uni-breadcrumb-item wx:for="{{a}}" wx:for-item="route" wx:key="b" u-s="{{['d']}}" u-i="{{route.c}}" bind:__l="__l" u-p="{{route.d}}">{{route.a}}</uni-breadcrumb-item></uni-breadcrumb></view>

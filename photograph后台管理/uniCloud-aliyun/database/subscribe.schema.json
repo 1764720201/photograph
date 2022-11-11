@@ -1,0 +1,54 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"user_id": {
+			"bsonType": "string",
+			"foreignKey": "uni-id-users._id",
+			"defaultValue": {
+				"$env": "uid"
+			}
+		},
+		"create_time": {
+			"bsonType": "timestamp",
+			"defaultValue": {
+				"$env": "now"
+			}
+		},
+		"types": {
+			"bsonType": "array",
+			"description": "预约的类型"
+		},
+		"total": {
+			"bsonType": "double",
+			"description": "总金额"
+		},
+		"store": {
+			"bsonType": "string",
+			"description": "预约的店铺"
+		},
+		"state": {
+			"bsonType": "int",
+			"defaultValue": 0,
+			"description": "预约的状态  0:代拍摄 1:进行中 2:已完成 3:已关闭"
+		},
+		"time": {
+			"bsonType": "string",
+			"description": "到店时间"
+		},
+		"phone": {
+			"bsonType": "string",
+			"description": "手机"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "版本列表",
+  "usingComponents": {
+    "uni-icons": "../../../uni-icons/components/uni-icons/uni-icons",
+    "uni-th": "../../../uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../../uni-table/components/uni-tr/uni-tr",
+    "uni-td": "../../../uni-table/components/uni-td/uni-td",
+    "uni-data-picker": "../../../uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "uni-dateformat": "../../../uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-table": "../../../uni-table/components/uni-table/uni-table",
+    "uni-pagination": "../../../uni-pagination/components/uni-pagination/uni-pagination",
+    "unicloud-db": "../../../../node-modules/@dcloudio/uni-components/lib/unicloud-db/unicloud-db"
+  }
+}

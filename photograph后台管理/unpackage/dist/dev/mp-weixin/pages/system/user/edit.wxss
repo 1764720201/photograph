@@ -1,0 +1,16 @@
+
+.reset-password-btn {
+		/* height: 100%; */
+		line-height: 36px;
+		color: #007AFF;
+		text-decoration: underline;
+		cursor: pointer;
+}
+.cancel-reset-password-btn {
+		color: #007AFF;
+		padding-right: 10px;
+		cursor: pointer;
+}
+ .uni-forms-item__label {
+		width: 90px !important;
+}

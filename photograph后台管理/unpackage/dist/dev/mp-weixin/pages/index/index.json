@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "uni-stat-breadcrumb": "../../components/uni-stat-breadcrumb/uni-stat-breadcrumb",
+    "uni-notice-bar": "../../uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar",
+    "uni-stat-tabs": "../../components/uni-stat-tabs/uni-stat-tabs",
+    "uni-th": "../../uni_modules/uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../uni_modules/uni-table/components/uni-tr/uni-tr",
+    "uni-td": "../../uni_modules/uni-table/components/uni-td/uni-td",
+    "uni-table": "../../uni_modules/uni-table/components/uni-table/uni-table",
+    "fix-window": "../../components/fix-window/fix-window"
+  }
+}

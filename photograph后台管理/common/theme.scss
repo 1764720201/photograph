@@ -1,0 +1,50 @@
+@import '@/uni.scss';
+
+button[type="primary"] {
+	background-color: $uni-color-primary;
+	border-color: $uni-color-primary;
+	border-width: 0;
+}
+
+uni-button[type="primary"][plain] {
+	color: $uni-color-primary;
+	border-color: $uni-color-primary;
+}
+
+uni-button[disabled][type=primary] {
+	background-color: rgba($uni-color-primary, 0.6);
+}
+
+.button-hover[type=primary] {
+	background-color: darken($color: $uni-color-primary, $amount: 10%);
+}
+
+.uni-selector-select .uni-picker-item.selected{
+	color: $uni-color-primary;
+}
+
+.uni-tabs__item.is-active{
+	color: $uni-color-primary;
+}
+
+.uni-modal__btn_primary{
+	color: $uni-color-primary !important;
+}
+
+.uni-link {
+	color: $uni-color-primary;
+}
+
+.uni-switch-input-checked{
+	background-color: $uni-color-primary !important;
+	border-color: $uni-color-primary !important;
+}
+
+.uni-radio-input-checked{
+	background-color: $uni-color-primary !important;
+	border-color: $uni-color-primary !important;
+}
+
+.link-btn{
+	color: $uni-color-primary !important;
+}

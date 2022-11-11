@@ -1,0 +1,18 @@
+
+.icon-modal-box.data-v-acde0025 {
+		padding-top: var(--top-window-height);
+}
+.icon-modal.data-v-acde0025 {
+		width: 350px;
+		background-color: #fff;
+		height: 500px;
+		overflow-y: scroll;
+}
+@media screen and (min-width: 768px) {
+.icon-modal-pc.data-v-acde0025 {
+			width: 600px;
+}
+}
+.data-v-acde0025 .uni-forms-item__label {
+		width: 90px !important;
+}

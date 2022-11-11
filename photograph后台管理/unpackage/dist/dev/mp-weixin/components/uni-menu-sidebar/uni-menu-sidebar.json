@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-menu-item": "../uni-menu-item/uni-menu-item",
+    "uni-menu-sidebar": "./uni-menu-sidebar",
+    "uni-sub-menu": "../uni-sub-menu/uni-sub-menu"
+  }
+}

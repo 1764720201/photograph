@@ -1,0 +1,1 @@
+<view class="{{['uni-menu-item', a && 'is-active', b && 'is-disabled']}}" style="{{'padding-left:' + c + ';' + ('background-color:' + d)}}" bindtap="{{e}}"><slot></slot></view>

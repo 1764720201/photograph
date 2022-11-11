@@ -1,0 +1,7 @@
+
+.err-msg {
+        color: #FF0000;
+}
+.err-search {
+        margin-right: 10px;
+}

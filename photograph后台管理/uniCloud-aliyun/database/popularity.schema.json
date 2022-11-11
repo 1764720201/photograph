@@ -1,0 +1,28 @@
+{
+	"bsonType": "object",
+	"required": ["title", "image", "types", "price"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"title": {
+			"bsonType": "string"
+		},
+		"image": {
+			"bsonType": "array",
+			"arrayType": "string"
+		},
+		"types": {
+			"bsonType": "array"
+		},
+		"price": {
+			"bsonType": "double"
+		}
+	}
+}

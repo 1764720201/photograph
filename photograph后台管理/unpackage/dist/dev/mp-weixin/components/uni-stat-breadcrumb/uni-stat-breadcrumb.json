@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-breadcrumb-item": "../../uni_modules/uni-breadcrumb/components/uni-breadcrumb-item/uni-breadcrumb-item",
+    "uni-breadcrumb": "../../uni_modules/uni-breadcrumb/components/uni-breadcrumb/uni-breadcrumb"
+  }
+}

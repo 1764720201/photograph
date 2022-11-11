@@ -1,0 +1,160 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/Home/index",
+      "style": {
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/Product/index",
+      "style": {
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/Order/index",
+      "style": {
+        "navigationBarTitleText": "订单"
+      }
+    },
+    {
+      "path": "pages/ChooseCity/index",
+      "style": {
+        "navigationBarTitleText": "选择城市"
+      }
+    },
+    {
+      "path": "pages/Nearby/index",
+      "style": {
+        "navigationBarTitleText": "门店选择"
+      }
+    },
+    {
+      "path": "pages/Location/index",
+      "style": {
+        "navigationBarTitleText": "位置信息"
+      }
+    },
+    {
+      "path": "pages/Store/index",
+      "style": {
+        "navigationBarTitleText": "门店详情"
+      }
+    },
+    {
+      "path": "pages/Search/index",
+      "style": {
+        "navigationBarTitleText": "搜索产品"
+      }
+    },
+    {
+      "path": "pages/Mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/ProductionDetail/index",
+      "style": {
+        "navigationBarTitleText": "产品详情"
+      }
+    },
+    {
+      "path": "pages/Subscribe/index",
+      "style": {
+        "navigationBarTitleText": "预约"
+      }
+    },
+    {
+      "path": "pages/StoreDetail/index",
+      "style": {
+        "navigationBarTitleText": "门店信息"
+      }
+    },
+    {
+      "path": "pages/Submit/index",
+      "style": {
+        "navigationBarTitleText": "提交订单"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/Service/index",
+      "style": {
+        "navigationBarTitleText": "企业服务"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    },
+    {
+      "path": "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/Opinion/index",
+      "style": {
+        "navigationBarTitleText": "意见反馈"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+    "custom": {
+      "^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+    }
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#000",
+    "borderStyle": "white",
+    "backgroundColor": "#F8F8F8",
+    "height": "70px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [{
+        "pagePath": "pages/Home/index",
+        "iconPath": "static/tabbar/房子.png",
+        "selectedIconPath": "static/tabbar/房子-copy.png",
+        "text": "首页"
+      }, {
+        "pagePath": "pages/Product/index",
+        "iconPath": "static/tabbar/产品查询-copy.png",
+        "selectedIconPath": "static/tabbar/产品查询.png",
+        "text": "全部产品"
+      }, {
+        "pagePath": "pages/Order/index",
+        "iconPath": "static/tabbar/订单.png",
+        "selectedIconPath": "static/tabbar/订单-copy.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/Mine/index",
+        "iconPath": "static/tabbar/中评笑脸-copy.png",
+        "selectedIconPath": "static/tabbar/中评笑脸.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

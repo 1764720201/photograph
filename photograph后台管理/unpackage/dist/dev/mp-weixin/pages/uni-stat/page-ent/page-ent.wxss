@@ -1,0 +1,5 @@
+
+.uni-stat-edit--x {
+		display: flex;
+		justify-content: space-between;
+}

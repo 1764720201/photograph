@@ -1,0 +1,17 @@
+
+.box{
+		overflow: hidden;
+}
+.chooseAvatar {
+
+		display: inline-block;
+		box-sizing: border-box;
+
+		border: dotted 1px #ddd;
+		border-radius: 10px;
+		text-align: center;
+		padding: 1px;
+}
+.showBorder{
+		border: solid 1px #ddd;
+}

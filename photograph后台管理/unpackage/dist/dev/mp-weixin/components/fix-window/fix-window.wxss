@@ -1,0 +1,38 @@
+
+.fix-window {
+}
+.fix-window-button {
+	width: 30px;
+	height: 30px;
+	opacity: 0.5;
+	position: fixed;
+	top: 40px;
+	left: 20px;
+	z-index: 999;
+}
+.fix-window-top {
+	width: 100%;
+	position: fixed;
+	top: 25px;
+	left: 0;
+	z-index: 999;
+}
+.fix-window--mask {
+	position: fixed;
+	bottom: 0px;
+	top: 25px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(0, 0, 0, 0.4);
+	transition-duration: 0.3s;
+	z-index: 997;
+}
+.fix-window--popup {
+	position: fixed;
+	top: 85px;
+	left: 0;
+	/* transform: translate(-50%, -50%); */
+	transition-duration: 0.3s;
+	z-index: 998;
+}
+

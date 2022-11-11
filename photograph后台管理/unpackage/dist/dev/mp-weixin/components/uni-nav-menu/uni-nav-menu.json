@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-menu-sidebar": "../uni-menu-sidebar/uni-menu-sidebar"
+  }
+}

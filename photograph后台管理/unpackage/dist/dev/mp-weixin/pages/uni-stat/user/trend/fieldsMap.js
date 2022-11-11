@@ -1,0 +1,38 @@
+"use strict";
+const fieldsMap = [{
+  title: "\u65E5\u671F",
+  field: "start_time",
+  tooltip: "",
+  formatter: "",
+  stat: -1
+}, {
+  title: "\u65B0\u589E\u7528\u6237",
+  field: "new_user_count",
+  tooltip: "\u9996\u6B21\u8BBF\u95EE\u5E94\u7528\u7684\u7528\u6237\u6570\uFF08\u4EE5\u8BBE\u5907\u4E3A\u5224\u65AD\u6807\u51C6\uFF0C\u53BB\u91CD\uFF09",
+  value: 0
+}, {
+  title: "\u6D3B\u8DC3\u7528\u6237",
+  field: "active_user_count",
+  tooltip: "\u8BBF\u95EE\u8FC7\u5E94\u7528\u5185\u4EFB\u610F\u9875\u9762\u7684\u603B\u7528\u6237\u6570\uFF08\u53BB\u91CD\uFF09",
+  value: 0
+}, {
+  title: "\u6B21\u5747\u505C\u7559\u65F6\u957F",
+  field: "avg_user_session_time",
+  formatter: ":",
+  tooltip: "\u5E73\u5747\u6BCF\u6B21\u6253\u5F00\u5E94\u7528\u505C\u7559\u5728\u5E94\u7528\u5185\u7684\u603B\u65F6\u957F\uFF0C\u5373\u5E94\u7528\u505C\u7559\u603B\u65F6\u957F/\u542F\u52A8\u6B21\u6570",
+  value: 0,
+  stat: "avg"
+}, {
+  title: "\u4EBA\u5747\u505C\u7559\u65F6\u957F ",
+  field: "avg_user_time",
+  formatter: ":",
+  tooltip: "\u5E73\u5747\u6BCF\u4E2A\u7528\u6237\u505C\u7559\u5728\u5E94\u7528\u5185\u7684\u603B\u65F6\u957F\uFF0C\u5373\u5E94\u7528\u505C\u7559\u603B\u65F6\u957F/\u6D3B\u8DC3\u7528\u6237",
+  value: 0,
+  stat: "avg"
+}, {
+  title: "\u603B\u7528\u6237\u6570",
+  field: "total_users",
+  tooltip: "\u4ECE\u6DFB\u52A0\u7EDF\u8BA1\u5230\u5F53\u524D\u9009\u62E9\u65F6\u95F4\u7684\u603B\u7528\u6237\u6570\uFF08\u53BB\u91CD\uFF09",
+  value: 0
+}];
+exports.fieldsMap = fieldsMap;

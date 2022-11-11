@@ -1,0 +1,14 @@
+
+.uni-stat-panel {
+		box-shadow: unset;
+		border-bottom: 1px solid #eee;
+		padding: 0;
+		margin: 0 15px;
+}
+.uni-stat-edit--x {
+		display: flex;
+		justify-content: space-between;
+}
+.uni-stat-edit--btn {
+		cursor: pointer;
+}

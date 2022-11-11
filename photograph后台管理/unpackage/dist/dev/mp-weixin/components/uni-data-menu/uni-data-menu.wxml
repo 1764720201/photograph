@@ -1,0 +1,1 @@
+<view><uni-nav-menu wx:if="{{d}}" u-s="{{['d']}}" bindselect="{{c}}" u-i="65e47d90-0" bind:__l="__l" u-p="{{d}}"><uni-menu-sidebar wx:if="{{a}}" u-i="65e47d90-1,65e47d90-0" bind:__l="__l" u-p="{{a}}"></uni-menu-sidebar><uni-menu-sidebar wx:if="{{b}}" u-i="65e47d90-2,65e47d90-0" bind:__l="__l" u-p="{{b}}"></uni-menu-sidebar></uni-nav-menu></view>

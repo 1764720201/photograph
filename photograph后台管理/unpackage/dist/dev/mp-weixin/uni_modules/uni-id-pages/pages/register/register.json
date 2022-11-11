@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "注册",
+  "usingComponents": {
+    "uni-easyinput": "../../../uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-forms-item": "../../../uni-forms/components/uni-forms-item/uni-forms-item",
+    "uni-captcha": "../../../uni-captcha/components/uni-captcha/uni-captcha",
+    "uni-id-pages-agreements": "../../components/uni-id-pages-agreements/uni-id-pages-agreements",
+    "uni-forms": "../../../uni-forms/components/uni-forms/uni-forms"
+  }
+}

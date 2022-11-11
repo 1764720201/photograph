@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "个人资料",
+  "usingComponents": {
+    "uni-id-pages-avatar": "../../components/uni-id-pages-avatar/uni-id-pages-avatar",
+    "uni-list-item": "../../../uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../uni-list/components/uni-list/uni-list",
+    "uni-popup-dialog": "../../../uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni-popup/components/uni-popup/uni-popup",
+    "uni-id-pages-bind-mobile": "../../components/uni-id-pages-bind-mobile/uni-id-pages-bind-mobile"
+  }
+}

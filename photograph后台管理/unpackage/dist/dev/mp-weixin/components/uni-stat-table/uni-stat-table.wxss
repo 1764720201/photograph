@@ -1,0 +1,5 @@
+
+.uni-stat-tooltip-s {
+		width: 160px;
+		white-space: normal;
+}

@@ -1,0 +1,9 @@
+
+.uni-breadcrumb-x {
+		flex: 1;
+		display: flex;
+		padding: 0 5px;
+		min-height: 55px;
+		line-height: 55px;
+		align-items: center;
+}

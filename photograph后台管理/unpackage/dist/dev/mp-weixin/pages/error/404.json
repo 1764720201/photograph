@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Not Found",
+  "usingComponents": {
+    "fix-window": "../../components/fix-window/fix-window"
+  }
+}

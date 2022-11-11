@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "用户日志",
+  "usingComponents": {
+    "uni-stat-breadcrumb": "../../../components/uni-stat-breadcrumb/uni-stat-breadcrumb",
+    "uni-th": "../../../uni_modules/uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../../uni_modules/uni-table/components/uni-tr/uni-tr",
+    "uni-td": "../../../uni_modules/uni-table/components/uni-td/uni-td",
+    "uni-dateformat": "../../../uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "uni-table": "../../../uni_modules/uni-table/components/uni-table/uni-table",
+    "uni-pagination": "../../../uni_modules/uni-pagination/components/uni-pagination/uni-pagination",
+    "unicloud-db": "../../../node-modules/@dcloudio/uni-components/lib/unicloud-db/unicloud-db"
+  }
+}

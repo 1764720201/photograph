@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "今日概况",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-stat-breadcrumb": "../../../../components/uni-stat-breadcrumb/uni-stat-breadcrumb",
+    "uni-data-select": "../../../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-stat-tabs": "../../../../components/uni-stat-tabs/uni-stat-tabs",
+    "uni-datetime-picker": "../../../../uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "uni-stat-panel": "../../../../components/uni-stat-panel/uni-stat-panel",
+    "qiun-data-charts": "../../../../uni_modules/qiun-data-charts/components/qiun-data-charts/qiun-data-charts",
+    "fix-window": "../../../../components/fix-window/fix-window"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="uni-stat--sum-x mb-m"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="{{['uni-stat--sum-item', item.e]}}"><view class="uni-stat--sum-item-title">{{item.a}}</view><view class="uni-stat--sum-item-value">{{item.b}}</view><view wx:if="{{b}}" class="uni-stat--sum-item-contrast">{{item.c}}</view></view></view>

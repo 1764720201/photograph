@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "受访页",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-stat-breadcrumb": "../../../components/uni-stat-breadcrumb/uni-stat-breadcrumb",
+    "uni-data-select": "../../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-stat-tabs": "../../../components/uni-stat-tabs/uni-stat-tabs",
+    "uni-datetime-picker": "../../../uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "uni-stat-panel": "../../../components/uni-stat-panel/uni-stat-panel",
+    "uni-th": "../../../uni_modules/uni-table/components/uni-th/uni-th",
+    "uni-tr": "../../../uni_modules/uni-table/components/uni-tr/uni-tr",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-td": "../../../uni_modules/uni-table/components/uni-td/uni-td",
+    "uni-table": "../../../uni_modules/uni-table/components/uni-table/uni-table",
+    "uni-pagination": "../../../uni_modules/uni-pagination/components/uni-pagination/uni-pagination",
+    "uni-popup-dialog": "../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "fix-window": "../../../components/fix-window/fix-window"
+  }
+}

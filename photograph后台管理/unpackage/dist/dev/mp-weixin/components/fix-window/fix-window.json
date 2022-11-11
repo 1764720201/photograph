@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "top-window": "../../windows/topWindow",
+    "left-window": "../../windows/leftWindow"
+  }
+}

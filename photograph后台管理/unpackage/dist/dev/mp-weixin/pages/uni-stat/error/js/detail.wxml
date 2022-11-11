@@ -1,0 +1,1 @@
+<view class="fix-top-window"><view class="uni-container"><uni-stat-table wx:if="{{a}}" u-i="a91488ea-0" bind:__l="__l" u-p="{{a}}"/><view class="uni-pagination-box"><uni-pagination wx:if="{{d}}" bindchange="{{b}}" bindpageSizeChange="{{c}}" u-i="a91488ea-1" bind:__l="__l" u-p="{{d}}"/></view></view><fix-window u-i="a91488ea-2" bind:__l="__l"/></view>
